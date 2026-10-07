@@ -17,5 +17,7 @@ I just finished my Master's in Data Science at UAB and I'm looking for Data Anal
 - AWS Academy Data Analytics
 
 ## Projects
-- [Retail Sales Dashboard (Power BI)](https://github.com/vaishnavigade123/retail-sales-dashboard-powerbi): A dashboard that shows sales by region, category, and channel, with KPI cards and filters so you can dig into the numbers.
-- [Financial Transaction Data Quality Pipeline (Python)](https://github.com/vaishnavigade123/txn-data-quality-pipeline): A pipeline that checks incoming transaction data for problems like duplicates and bad currency codes, then separates the bad rows from the good ones. Uses simulated data, with Docker and GitHub Actions.
+
+- **[Retail Sales Dashboard (Power BI)](https://github.com/vaishnavigade123/retail-sales-dashboard-powerbi)**: A dashboard that shows how a retail business is performing, with sales by region, category, and channel, plus a monthly trend. KPI cards give the key totals, and filters let you drill down, with every chart updating together. Built with Power BI and DAX.
+
+- **[Financial Transaction Data Quality Pipeline (Python)](https://github.com/vaishnavigade123/txn-data-quality-pipeline)**: Checks incoming transaction data for problems like duplicate transactions, invalid currency codes, and missing values before they reach reports. Each batch gets a quality score out of 100, and only the bad rows are set aside for review. Uses simulated data, with Docker and GitHub Actions.
